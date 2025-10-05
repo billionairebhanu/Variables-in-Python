@@ -84,4 +84,30 @@ Assign values to three variables in a single line, then modify two of the variab
     a+=2
     b+=1
     print(a,b,c)
-  
+
+
+  VARIABLES
+
+Bhanu = "I am a Artificial Intelligence Engineer"
+
+    print(Bhanu.endswith("eer")) 
+if string ending with eer, it will return True.
+
+    print(Bhanu.capitalize()) 
+It will capitalize only the first letter of a string.
+
+    print(Bhanu.title()) 
+It will capitalize all the first letter of every word in a string.
+
+    print(Bhanu.replace("Arificial Intelligence","Data Science")) 
+It will replace the coder with Data Scientist within a string.
+
+    print(Bhanu.count("A")) 
+It will tell how many times a appear in the string.
+
+    print(Bhanu.find("I")) 
+It will give the index number of l within a string.
+ 
+    print(Bhanu.index("Artificial Intelligence")) 
+it will give the index number of l within a string.
+The difference is that .find() returns -1 if the substring is not found, whereas .index() raises a ValueError if the substring is not found.
